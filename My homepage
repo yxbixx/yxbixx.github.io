@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            background: #f6f7fb;
+            color: #333;
+        }
+
+        header {
+            background: #ffffff;
+            padding: 60px 20px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+
+        header h1 {
+            font-size: 42px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+            color: #666;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+
+        section h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: #111;
+        }
+
+        section p {
+            font-size: 16px;
+            margin-bottom: 15px;
+            color: #555;
+        }
+
+        .skills, .contact {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill {
+            background: #007bff;
+            color: #fff;
+            padding: 8px 14px;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+
+        a.btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 28px;
+            background: #111;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        a.btn:hover {
+            background: #333;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            color: #999;
+            font-size: 14px;
+        }
+
+        @media(max-width: 600px){
+            header h1 { font-size: 32px; }
+            section h2 { font-size: 24px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Hello, I'm [Your Name]</h1>
+        <p>A passionate developer who loves creating beautiful and functional web experiences.</p>
+        <a href="https://github.com/yourusername" class="btn">View My GitHub</a>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>I am a web developer with experience in front-end and back-end technologies. I enjoy learning new frameworks and building projects that solve real problems.</p>
+        <p>In my free time, I like exploring design trends, improving my coding skills, and contributing to open-source projects.</p>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">React</div>
+            <div class="skill">Node.js</div>
+            <div class="skill">Git</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Contact</h2>
+        <p>You can reach me via email or follow me on GitHub:</p>
+        <div class="contact">
+            <a href="mailto:your.email@example.com" class="btn">Email Me</a>
+            <a href="https://github.com/yourusername" class="btn">GitHub</a>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2025 [Your Name]. All rights reserved.
+    </footer>
+
+</body>
+</html>
